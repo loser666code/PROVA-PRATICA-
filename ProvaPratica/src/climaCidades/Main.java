@@ -22,11 +22,6 @@ public class Main {
 			}
 		}
 
-		for (int cdd = 0; cdd < 4; cdd++) {
-			for (int d = 0; d < 7; d++) {
-				System.out.println("\n a temperatura de " + dias[d] + " em " + cidades[cdd] + " é: " + temperatura[cdd][d]);
-			}
-		}
 		
 		abaixoDe15();
 		for (int i =0;i < 4; i++){
@@ -74,7 +69,7 @@ public class Main {
 					}
 				}
 			for(int i = 0; i < 4; i++) {
-				media[i] = media[i]/7;
+				media[i] = (double) Math.round(media[i]/7);
 			}
 
 	}
